@@ -1,27 +1,49 @@
-# C10
+# Pokédex usando PokeAPI com Angular
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.2.
+Este é um mini projeto desenvolvido durante o curso do Professor Felipe Aguiar, focado na construção de uma Pokédex utilizando Angular e integrando dados da PokeAPI.
 
-## Development server
+## Descrição
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Este projeto é uma aplicação simples de uma Pokédex, onde os usuários podem visualizar informações sobre Pokémon, como nome, tipo, habilidades, entre outros detalhes. Utiliza a PokeAPI (https://pokeapi.co/) para obter os dados dos Pokémon.
 
-## Code scaffolding
+## Funcionalidades
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- Lista de Pokémon: exibe uma lista de Pokémon com seus nomes e imagens.
+- Detalhes do Pokémon: ao clicar em um Pokémon na lista, mostra informações detalhadas sobre ele, como tipo, habilidades, peso, etc.
+- Busca de Pokémon: os usuários podem pesquisar Pokémon pelo nome.
 
-## Build
+## Tecnologias Utilizadas
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+- Angular: Framework front-end para a construção da aplicação.
+- PokeAPI: API utilizada para obter dados dos Pokémon.
 
-## Running unit tests
+## Instalação e Uso
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+1. Certifique-se de ter o Node.js e o Angular CLI instalados na sua máquina.
+2. Clone este repositório.
+   ```bash
+   git clone https://github.com/seu-usuario/pokedex-angular.git
 
-## Running end-to-end tests
+3. Na pasta do projeto, instale as dependências.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+   ```bash
+   cd pokedex-angular
+   npm install
+   ```
+4. Inicie a aplicação.
+   ```bash
+   ng serve
+   ```
+5. Acesse a aplicação no seu navegador.
+   ```bash
+   http://localhost:4200/
+   ```
 
-## Further help
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Contribuição 
+
+Contribuições são bem-vindas! Sinta-se à vontade para abrir um pull request para melhorias, correções de bugs, adição de novas funcionalidades, etc.
+
+## Autor
+
+Este projeto foi desenvolvido durante o curso de Angular ministrado pelo Professor Felipe Aguiar.

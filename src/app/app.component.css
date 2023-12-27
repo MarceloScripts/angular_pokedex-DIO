@@ -1,0 +1,9 @@
+h1 {
+    color: red;
+    text-transform: uppercase;
+    margin-left: 40%;
+}
+span {
+    color: black;
+    text-transform: lowercase;
+}
